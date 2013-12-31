@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "optimist": "~0.6.0",
-    "quiver-module": "0.0.x",
-    "quiver-component": "~0.2.0",
     "quiver-merge": "0.0.1",
-    "quiver-error": "~0.1.0",
-    "quiver-node-stream": "0.0.3",
-    "quiver-stream-convert": "0.0.8",
-    "quiver-pipe-stream": "0.0.2"
+    "quiver-error": "0.1.x",
+    "quiver-module": "0.0.x",
+    "quiver-component": "0.2.x",
+    "quiver-node-stream": "0.0.x",
+    "quiver-pipe-stream": "0.0.x",
+    "quiver-stream-convert": "0.0.x"
   },
   "bugs": {
     "url": "https://github.com/quiverjs/module/issues",
@@ -29,7 +29,10 @@
     "type": "MIT",
     "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
   },
-  "main": "./lib/export",
+  "main": "./lib/command",
+  "bin": {
+    "quiver-command": "./bin/quiver-command"
+  },
   "scripts": {
     "test": "make test"
   }
