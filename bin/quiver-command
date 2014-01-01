@@ -7,4 +7,6 @@ var commandArgs = require('optimist').argv
 
 command.runCommand(commandArgs, process, function(err) {
   if(err) throw err
+
+  process.exit(0)
 })
