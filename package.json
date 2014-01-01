@@ -6,7 +6,7 @@
   },
   "name": "quiver-command",
   "desription": "Command-line wrapper for stream handler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/quiverjs/command",
   "repository": {
     "url": "git@github.com:quiverjs/command.git"
