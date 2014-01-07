@@ -6,14 +6,14 @@
   },
   "name": "quiver-command",
   "desription": "Command-line wrapper for stream handler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/quiverjs/command",
   "repository": {
     "url": "git@github.com:quiverjs/command.git"
   },
   "dependencies": {
     "optimist": "~0.6.0",
-    "quiver-merge": "0.0.1",
+    "quiver-merge": "0.0.x",
     "quiver-error": "0.1.x",
     "quiver-module": "0.0.x",
     "quiver-component": "0.2.x",
@@ -22,7 +22,7 @@
     "quiver-stream-convert": "0.0.x"
   },
   "bugs": {
-    "url": "https://github.com/quiverjs/module/issues",
+    "url": "https://github.com/quiverjs/command/issues",
     "email": "quiverjs@soareschen.com"
   },
   "licenses": {
