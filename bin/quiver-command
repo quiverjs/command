@@ -5,8 +5,4 @@
 var command = require('../lib/command')
 var commandArgs = require('optimist').argv
 
-command.runCommand(commandArgs, process, function(err) {
-  if(err) throw err
-
-  process.exit(0)
-})
+command.runAsCommandLine(commandArgs, process)

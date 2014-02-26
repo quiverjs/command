@@ -2,5 +2,6 @@
   "name": "test-module",
   "version": "0.0.0",
   "description": "",
+  "quiverComponent": "component.js",
   "main": "index.js"
 }
